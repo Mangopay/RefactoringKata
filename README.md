@@ -1,4 +1,4 @@
-ss# Refactoring Kata
+# Refactoring Kata
 
 ## Goal
 The goal of this kata is to find the code smells of this legacy code and fix them in the safest way.
