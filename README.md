@@ -23,4 +23,5 @@ The Wallet service (WalletKata/Wallets/WalletService.cs) allow a user to consult
 
 Info : the database and the session is a stub wich throw an exception.
 
+If the instructions are not clear, please create a github issue.
 
