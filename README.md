@@ -16,6 +16,7 @@ If you feel that you are not able to put under tests this messy code, go straigh
 
 ## Specification
 The Wallet service (WalletKata/Wallets/WalletService.cs) allow a user to consult the wallets of a friend.
+
 1. If the user is not logged, the service throw a UserNotLoggedInException.
 2. If the logged user is not friend with the user passed in argument, the service return a empty list.
 3. If the logged user is friend with the user passed in argument, the service return the list of wallet fetched from the database.
