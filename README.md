@@ -1,4 +1,4 @@
-# Refactoring Kata
+s# Refactoring Kata
 
 ## Goal
 The goal of this kata is to find the code smells of this legacy code and fix them in the safest way.
@@ -15,13 +15,13 @@ Feel free to use another framework test or any mock library.
 If you feel that you are not able to put under tests this messy code, go straight to the refactoring without testing.
 
 ## Specification
-The Wallet service (WalletKata/Wallets/WalletService.cs) allow a user to consult the wallets of a friend.
+The Wallet service (WalletKata/Wallets/WalletService.cs) allows an user to consult the wallets of a friend.
 
-1. If the user is not logged, the service throw a UserNotLoggedInException.
-2. If the logged user is not friend with the user passed in argument, the service return a empty list.
+1. If the user is not logged, the service throws a UserNotLoggedInException.
+2. If the logged user is not friend with the user passed in argument, the service returns an empty list.
 3. If the logged user is friend with the user passed in argument, the service return the list of wallets fetched from the database.
 
-Info : the database and the session is a stub wich throw an exception.
+Info : the database and the session is a stub which throws an exception.
 
 If the instructions are not clear, please create a github issue.
 
