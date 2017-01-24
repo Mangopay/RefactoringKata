@@ -11,5 +11,10 @@ namespace WalletKata.Users
         {
             return friends;
         }
+
+        public void AddFriend(User friend)
+        {
+            friends.Add(friend);
+        }
     }
 }
