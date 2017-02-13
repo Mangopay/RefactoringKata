@@ -2,7 +2,7 @@ using WalletKata.Exceptions;
 
 namespace WalletKata.Users
 {
-    public class UserSession
+    public class UserSession : IGetLoggedUser
     {
         private static readonly UserSession userSession = new UserSession();
 
