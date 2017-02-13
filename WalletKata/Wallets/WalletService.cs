@@ -6,7 +6,7 @@ namespace WalletKata.Wallets
 {
     public class WalletService
     {
-        public List<Wallet> GetWalletsByUser(User user, IGetLoggedUser userSession)
+        public List<Wallet> GetWalletsByUser(User user, IGetLoggedUser userSession, IWalletDAOWrapper walletDAO)
         {
             List<Wallet> walletList = new List<Wallet>();
             User loggedUser = userSession.GetLoggedUser();
@@ -25,7 +25,7 @@ namespace WalletKata.Wallets
 
                 if (isFriend)
                 {
-                    walletList = WalletDAO.FindWalletsByUser(user);
+                    walletList = walletDAO.FindWalletsByUser(user);
                 }
 
                 return walletList;
