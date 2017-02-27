@@ -17,7 +17,7 @@ namespace WalletKata.Wallets
                 {
                     if (friend.Equals(loggedUser))
                     {
-                        return WalletDAO.FindWalletsByUser(user)
+                        return WalletDAO.FindWalletsByUser(user);
                     }
                 }
                 
