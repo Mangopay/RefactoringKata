@@ -6,7 +6,7 @@ namespace WalletKata.Users
     {
         private static readonly UserSession userSession = new UserSession();
 
-        private UserSession() { }
+        private UserSession() { } //what is the purpose?
 
         public static UserSession GetInstance()
         {
